@@ -1,0 +1,1 @@
+SELECT * FROM `olist-data-cloud-471009.Olist.olist_customers`
