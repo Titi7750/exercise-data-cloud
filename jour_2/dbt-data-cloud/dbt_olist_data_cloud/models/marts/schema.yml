@@ -1,0 +1,20 @@
+models:
+  - name: int_commandes_clients
+    description: "Vue analytique des commandes enrichies avec les clients"
+    columns:
+      - name: order_id
+        description: "Identifiant unique de la commande"
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        description: "Identifiant du client"
+        tests:
+          - not_null
+
+      - name: customer_unique_id
+        description: "Identifiant unique du client"
+
+      - name: order_purchase_timestamp
+        description: "Date de la commande"
