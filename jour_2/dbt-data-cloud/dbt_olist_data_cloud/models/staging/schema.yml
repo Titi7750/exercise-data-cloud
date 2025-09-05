@@ -1,0 +1,43 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: olist-data-cloud-471009
+    schema: Olist
+    tables:
+      - name: clients
+        identifier: olist_customers
+      - name: commandes
+        identifier: olist_orders
+      - name: produits
+        identifier: olist_products
+
+models:
+  - name: stg_clients
+    description: "Staging des clients"
+    columns:
+      - name: customer_id
+        description: "ID unique du client"
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_commandes
+    description: "Staging des commandes"
+    columns:
+      - name: order_id
+        description: "ID unique de la commande"
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        description: "Référence vers le client"
+
+  - name: stg_produits
+    description: "Staging des produits"
+    columns:
+      - name: product_id
+        description: "ID unique du produit"
+        tests:
+          - not_null
+          - unique

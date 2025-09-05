@@ -6,7 +6,7 @@ dbt_olist_data_cloud:
       method: service-account
       project: olist-data-cloud-471009
       dataset: Olist
-      location: europe-west9
+      location: EU
       threads: 1
       timeout_seconds: 300
       keyfile: <PATH_TO_YOUR_SERVICE_ACCOUNT_JSON_KEYFILE>
