@@ -1,0 +1,16 @@
+service_display_name;name;quantity;region;service_id;sku;total_price, EUR;notes
+Instances (Compute Engine);N4 Instance Core running in Americas;1460.0;us-central1;6F81-5844-456A;1C3C-9EBD-240F;41.00006;
+Instances (Compute Engine);N4 Instance Ram running in Americas;5840.0;us-central1;6F81-5844-456A;36D5-78B0-A4D9;18.63616;
+Instances (Compute Engine);Hyperdisk Balanced Capacity in Iowa;50.0;us-central1;6F81-5844-456A;83FF-9C17-D184;3.448;
+PostgreSQL (Cloud SQL);Cloud SQL for PostgreSQL: Zonal - vCPU in Americas;1460.0;us-central1;9662-B51E-5089;965E-7C36-08E6;51.97688;
+PostgreSQL (Cloud SQL);Cloud SQL for PostgreSQL: Zonal - RAM in Americas;5475.0;us-central1;9662-B51E-5089;93DA-3F55-CB04;33.03615;
+PostgreSQL (Cloud SQL);Cloud SQL for PostgreSQL: Zonal - Standard storage in Americas;73000.0;us-central1;9662-B51E-5089;C18F-7FE0-0717;14.654;
+Cloud Storage;Standard Storage Paris;100.0;europe-west9;95FF-2EF5-5EA1;5CEA-0E42-9E49;1.9826;
+;;;;;;;
+;;;;;Total Price:;164.73385;
+;;;;;;;
+Prices are in EUR; effective date is 2025-09-24T08:41:59.362Z;;;;;;
+;;;;;;;
+The estimated fees provided by Google Cloud Pricing Calculator are for discussion purposes only and are not binding on either you or Google. Your actual fees may be higher or lower than the estimate.;;;;;;;
+;;;;;;;
+Url to the estimate:;https://cloud.google.com/calculator?dl=CjhDaVJpTnpjNVltRmlNaTA0TXpFM0xUUTBabVF0T1dJMU1pMDRNVE5rTjJRNVlUa3pOalFRQVE9PRokREM2OTJDODUtQUY5QS00MTM5LUFFNjEtQkYyRDNEN0U5Q0Mx;;;;;;
