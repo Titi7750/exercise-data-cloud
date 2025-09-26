@@ -1,0 +1,5 @@
+.env
+jobvars.json
+keys/
+.venv/
+__pycache__/

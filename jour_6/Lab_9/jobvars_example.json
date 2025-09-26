@@ -1,0 +1,9 @@
+{
+  "env": {
+    "GOOGLE_APPLICATION_CREDENTIALS": "<path_to_your_service_account_key>.json",
+    "GCP_PROJECT": "your-gcp-project-id",
+    "GCS_BUCKET": "your-gcs-bucket-name",
+    "BQ_DATASET": "your_bigquery_dataset",
+    "BQ_TABLE": "your_bigquery_table"
+  }
+}
