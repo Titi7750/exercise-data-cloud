@@ -68,7 +68,7 @@ BQ_TABLE=covid_clean
 **Windows PowerShell** :
 ```powershell
 python -m venv .venv
-. .venv/Scripts/activate
+.venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
@@ -123,7 +123,7 @@ Créer `jobvars.json` :
 ```json
 {
   "env": {
-    "GOOGLE_APPLICATION_CREDENTIALS": "C:\chemin\vers\key.json",
+    "GOOGLE_APPLICATION_CREDENTIALS": "C:\\chemin\\vers\\key.json",
     "GCP_PROJECT": "mon-projet-12345",
     "GCS_BUCKET": "ton-bucket",
     "BQ_DATASET": "my_dataset",
@@ -175,7 +175,7 @@ prefect deployment build flow.py:covid_elt -n covid-daily --pool process-pull --
 
 ---
 
-## 📎 Commandes utiles
+## Commandes utiles
 ```powershell
 prefect work-pool ls
 prefect deployment ls
